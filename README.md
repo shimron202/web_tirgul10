@@ -30,7 +30,7 @@
    ```bash
    node App.js
    ```
-access application at `https://web_tirgul10.onrender.com/login`.
+access application at `https://web-tirgul10.onrender.com`.
 
 ## Predefined Users
 
