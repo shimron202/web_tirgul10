@@ -20,6 +20,10 @@ app.use(session({
     cookie: { secure: false } // Set to true if using HTTPS
 }));
 
+app.get('/', (req, res) => {
+    res.render('login');
+});
+
 // Route for rendering the login page
 app.get('/login', (req, res) => {
     res.render('login');
